@@ -1,0 +1,15 @@
+@use "../../../stylesheets/main.scss";
+
+.wrapper {
+  padding: 5px;
+  border-radius: 16px;
+  background-color: transparent;
+  border: none;
+  @include main.flex(center, center);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: rgba(main.$color-black, 0.1);
+  }
+}

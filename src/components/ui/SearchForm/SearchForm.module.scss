@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  height: calc(100% - 2px);
+  right: 1px;
+  top: 1px;
+}
+
+.input {
+  padding-right: 98px;
+}

@@ -1,0 +1,13 @@
+@use "../../../stylesheets/main.scss";
+
+.btn {
+  background-color: main.$color-purple-100;
+  border: none;
+  padding: 10px 15px;
+  color: main.$color-white;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(1.1);
+  }
+}

@@ -1,0 +1,18 @@
+@use "../../../stylesheets/main.scss";
+
+.input {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 1px solid rgba(main.$color-purple-100, 0.2);
+  color: main.$color-white;
+  text-overflow: ellipsis;
+
+  &::placeholder {
+    color: main.$color-purple-50;
+  }
+
+  &:focus {
+    outline: 1px solid rgba(main.$color-purple-100, 0.2);
+  }
+}
