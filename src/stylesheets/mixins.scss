@@ -1,3 +1,5 @@
+@use "./variables.scss";
+
 @mixin flex($j-content: space-between, $a-items: center, $f-direction: null) {
   display: flex;
   justify-content: $j-content;
@@ -23,4 +25,19 @@
   > :not(style) + :not(style) {
     @content;
   }
+}
+
+@mixin body {
+  font-size: variables.$body-font-size;
+  line-height: variables.$body-line-height;
+}
+
+@mixin body1 {
+  font-size: variables.$body1-font-size;
+  line-height: variables.$body1-line-height;
+}
+
+@mixin h1 {
+  font-size: variables.$h1-font-size;
+  line-height: variables.$h1-line-height;
 }

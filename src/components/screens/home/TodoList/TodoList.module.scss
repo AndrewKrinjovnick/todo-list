@@ -10,7 +10,7 @@
 }
 
 .title {
-  font-size: 24px;
+  @include main.h1;
   color: main.$color-white;
 }
 

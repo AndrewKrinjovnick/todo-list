@@ -1,0 +1,24 @@
+.form {
+  position: relative;
+  padding: 3px 0;
+}
+
+.input {
+  padding-right: 4.5rem;
+  padding-left: 9px;
+}
+
+.done,
+.close {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.done {
+  right: 0.5rem;
+}
+
+.close {
+  right: 2.5rem;
+}

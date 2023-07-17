@@ -1,19 +1,21 @@
 @use "../../../stylesheets/main.scss";
 
-.btn {
-  padding: 5px;
-  border-radius: 16px;
-  background-color: transparent;
-  border: none;
+.checkbox {
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.label {
   @include main.flex(center, center);
   cursor: pointer;
+  padding: 0.25rem;
   transition: background-color 0.2s ease-in-out;
+  border-radius: 50%;
 
   &:hover {
     background-color: rgba(main.$color-black, 0.1);
-  }
-
-  &.light:hover {
-    background-color: rgba(main.$color-white, 0.1);
   }
 }

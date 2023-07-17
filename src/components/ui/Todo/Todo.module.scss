@@ -11,6 +11,13 @@
   color: main.$color-white;
 }
 
+.title {
+  max-width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .buttons_list {
   @include main.stack {
     margin-left: 10px;

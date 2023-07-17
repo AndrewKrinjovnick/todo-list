@@ -1,0 +1,13 @@
+@use "../../../stylesheets/main.scss";
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.error {
+  color: main.$color-red;
+  margin-left: 0.25rem;
+  @include main.body1;
+}
