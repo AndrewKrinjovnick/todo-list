@@ -1,0 +1,23 @@
+@use "stylesheets/main";
+
+.icon {
+  @include main.flex(center);
+  padding: 5px;
+  border-radius: 50%;
+  background-color: rgba(main.$color-dark-gray, 0.5);
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(main.$color-dark-gray, 0.8);
+  }
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.list_item {
+  padding: 10px 0;
+}

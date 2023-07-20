@@ -1,5 +1,5 @@
-import { TodoList } from "../../components/screens/home/TodoList";
-import { Container } from "../../components/ui/Container";
+import { TodoList } from "components/screens/home/TodoList";
+import { Container } from "components/ui/Container";
 import styles from "./HomePage.module.scss";
 
 const HomePage = () => {

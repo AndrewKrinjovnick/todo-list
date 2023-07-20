@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "id": "d938c02f-af95-49d2-b3e3-1225a82d3e8a",
+      "userId": 1,
+      "title": "Поїсти",
+      "completed": false
+    },
+    {
+      "id": "6db8db8e-dd5d-41c2-a9c9-899d01cba903",
+      "userId": 1,
+      "title": "Подивитися серіал",
+      "completed": false
+    },
+    {
+      "id": "de7ecf9e-74b0-41d5-94c3-a9a7fb21f316",
+      "userId": 1,
+      "title": "Поспати",
+      "completed": false
+    },
+    {
+      "id": "e0d519d8-68db-4a11-bf6e-dfa2591db3dd",
+      "userId": 1,
+      "title": "Погладити кота",
+      "completed": false
+    }
+  ]
+}

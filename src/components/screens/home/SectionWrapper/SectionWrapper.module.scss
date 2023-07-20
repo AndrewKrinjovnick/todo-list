@@ -1,0 +1,24 @@
+@use "../../../../stylesheets/main.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 50px 20px;
+  background-color: main.$color-dark-blue;
+  border-radius: 4px;
+  @include main.stack(stretch, stretch, column) {
+    margin-top: 1rem;
+  }
+  box-shadow: 0px 0px 30px rgba(main.$color-black, 0.5);
+}
+
+.header {
+  @include main.flex;
+}
+
+.title {
+  @include main.h1;
+  color: main.$color-white;
+  margin: 0;
+}

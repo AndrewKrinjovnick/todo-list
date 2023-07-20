@@ -1,23 +1,46 @@
 @use "../../../../stylesheets/main.scss";
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px 20px 50px 20px;
-  background-color: main.$color-dark-blue;
-  border-radius: 4px;
-}
-
-.title {
-  @include main.h1;
-  color: main.$color-white;
-}
-
 .list {
-  margin-top: 20px;
   width: 100%;
   @include main.stack(stretch, stretch, column) {
     margin-top: 16px;
   }
+  max-height: 400px;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: main.$color-dark-gray;
+    box-shadow: inset 2px 2px 5px rgba(main.$color-white, 0.1);
+    border-radius: 1rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    border: 3px solid main.$color-dark-gray;
+    background: linear-gradient(
+      rgba(main.$color-red, 0.5),
+      rgba(main.$color-purple-100, 0.5)
+    );
+  }
+}
+
+.skeleton {
+  height: 46px;
+  margin-top: 16px;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.error {
+  color: main.$color-red;
+}
+
+.tabs {
+  @include main.flex;
 }

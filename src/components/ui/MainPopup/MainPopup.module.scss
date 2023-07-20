@@ -1,0 +1,15 @@
+@use "stylesheets/main";
+
+.header_wrapper {
+  @include main.flex;
+  min-width: 550px;
+}
+
+.header {
+  @include main.h2;
+}
+
+.content {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}

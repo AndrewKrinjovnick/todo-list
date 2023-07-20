@@ -17,7 +17,7 @@ export const Todo = ({
   title,
 }) => {
   const [isCompleted, setIsCompleted] = useState(completed);
-  console.log("completed", completed);
+
   const handleDelete = () => {
     onDelete(id);
   };

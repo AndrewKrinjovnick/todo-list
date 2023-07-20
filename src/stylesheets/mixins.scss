@@ -41,3 +41,8 @@
   font-size: variables.$h1-font-size;
   line-height: variables.$h1-line-height;
 }
+
+@mixin h2 {
+  font-size: variables.$h2-font-size;
+  line-height: variables.$h2-line-height;
+}

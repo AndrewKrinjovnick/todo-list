@@ -1,0 +1,15 @@
+@use "../../../../stylesheets/main.scss";
+
+.wrapper {
+  @include main.flex;
+  width: 100%;
+}
+
+.btn_wrapper {
+  @include main.stack {
+    margin-left: 0.5rem;
+  }
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid main.$color-purple-100;
+}
